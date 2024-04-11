@@ -49,6 +49,6 @@ $…$
 
 $= T(\frac{n^5}{3^i})$
 
-for $i = \log_2 n$
+for $i = \log n$
 
 $=  T(\frac{n^5}{3/2n}) = 2/3n^4 \in O(n^4)$
