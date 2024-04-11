@@ -49,6 +49,6 @@ $…$
 
 $= T(\frac{n^5}{3^i})$
 
-$for i = lgn$
+$for i = logn$
 
 $=  T(\frac{n^5}{3n}) = n^4 \in O(n^4)$
