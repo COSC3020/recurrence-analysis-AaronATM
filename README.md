@@ -51,4 +51,4 @@ $= T(\frac{n^5}{3^i})$
 
 for $i = \log n$
 
-$=  T(\frac{n^5}{3/2n}) = 2/3n^4 \in O(n^4)$
+$=  T(\frac{n^5}{3/10n}) = 10/3n^4 \in O(n^4)$
