@@ -31,3 +31,24 @@ function mystery(n) {
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+$$ T(n) =
+   \begin{cases}
+       1 & n \leq 1\\
+       T(\frac{n^5}{3}) & n > 1
+   \end{cases}
+$$
+
+$ T(n) = T(\frac{n^5}{3}) $
+
+$         = T(\frac{n^5}{9}) $
+
+$         = T(\frac{n^5}{27}) $
+
+$         …                               $
+
+$         = T(\frac{n^5}{3^i}) $
+
+$for i = lgn$
+
+$         =  T(\frac{n^5}{3n}) = n^4 \in O(n^4) $
