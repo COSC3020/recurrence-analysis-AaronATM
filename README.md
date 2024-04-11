@@ -39,16 +39,16 @@ $$ T(n) =
    \end{cases}
 $$
 
-$ T(n) = T(\frac{n^5}{3}) $
+$T(n) = T(\frac{n^5}{3})$
 
-$         = T(\frac{n^5}{9}) $
+$= T(\frac{n^5}{9})$
 
-$         = T(\frac{n^5}{27}) $
+$= T(\frac{n^5}{27})$
 
-$         …                               $
+$…$
 
-$         = T(\frac{n^5}{3^i}) $
+$= T(\frac{n^5}{3^i})$
 
 $for i = lgn$
 
-$         =  T(\frac{n^5}{3n}) = n^4 \in O(n^4) $
+$=  T(\frac{n^5}{3n}) = n^4 \in O(n^4)$
