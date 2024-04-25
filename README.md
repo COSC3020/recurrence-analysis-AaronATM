@@ -56,6 +56,7 @@ $\sum_{k=0}^i (\frac{1}{3^4})^k$
 $\cdot n^5 $
 
 // I am aware that the i in the sum is not displaying properly in math notation, it seems to be an issue with github
+
 // https://github.com/orgs/community/discussions/17051
 
 for $i = \log n$
