@@ -32,23 +32,27 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
+// Worked with Jacob Johnson
+
 $$ T(n) =
    \begin{cases}
        1 & n \leq 1\\
-       T(\frac{n^5}{3}) & n > 1
+       3T(\frac{n}{3}) + n^5 & n > 1
    \end{cases}
 $$
 
-$T(n) = T(\frac{n^5}{3})$
+$T(n) = 3T(\frac{n}{3}) + n^5 $
 
-$= T(\frac{n^5}{9})$
+$= 3(3T(\frac{n}{9}) + \frac{n^5}{3^5}) + n^5$
 
-$= T(\frac{n^5}{27})$
+$= 9T(\frac{n}{9}) + \frac{n^5}{3^4}) + n^5$
+
+$= 27T(n/27) + \frac{n^5}{9^4}) + \frac{n^5}{3^4}) + n^5$
 
 $…$
 
-$= T(\frac{n^5}{3^i})$
+$= 3^iT(\frac{n}{3^i}) + \[ \sum_{k=0}^{i} (\frac{1}{3^4})^k \] \cdot n^5
 
 for $i = \log n$
 
-$=  T(\frac{n^5}{3/10n}) = 10/3n^4 \in O(n^4)$
+$=  nT(1) + n^6 \in \Theta(n^6)$
