@@ -52,8 +52,11 @@ $= 27T(\frac{n}{27}) + \frac{n^5}{9^4} + \frac{n^5}{3^4} + n^5$
 $…$
 
 $= 3^iT(\frac{n}{3^i}) +$
-$\left( \sum_{k=0}^i (\frac{1}{3^4})^k \right)$
-$\cdot n^5 $
+$\sum_{k=0}^i (\frac{1}{3^4})^k$
+$\cdot n^5 $\
+
+// I am aware that this sum is not displaying properly in inline math, it seems to be an issue with github
+// https://github.com/orgs/community/discussions/17051
 
 for $i = \log n$
 
