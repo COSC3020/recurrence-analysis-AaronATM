@@ -51,11 +51,9 @@ $= 27T(\frac{n}{27}) + \frac{n^5}{9^4} + \frac{n^5}{3^4} + n^5$
 
 $…$
 
-$= 3^iT(\frac{n}{3^i}) +$ 
-\[
-    \sum_{k=0}^{i} (\frac{1}{3^4})^{k}
-\]
-$\cdot n^5 $
+$= 3^iT(\frac{n}{3^i}) +
+\sum_{k=0}^{i} (\frac{1}{3^4})^{k}
+\cdot n^5 $
 
 for $i = \log n$
 
